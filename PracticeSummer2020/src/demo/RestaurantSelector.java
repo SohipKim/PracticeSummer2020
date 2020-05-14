@@ -13,17 +13,17 @@ public class RestaurantSelector {
 		
 		Scanner inputDevice = new Scanner(System.in);
 		
-		while (!(vegetarian.equalsIgnoreCase("Yes")&& vegetarian.equalsIgnoreCase("No")))
+		while (!(vegetarian.equalsIgnoreCase("Yes")|| vegetarian.equalsIgnoreCase("No")))
 		{
 		System.out.println("Is anyone in your party a vegetarian? (Yes/No)");
 		 vegetarian = inputDevice.nextLine();	 	
 		}
-		while (!(vegan.equalsIgnoreCase("Yes")&& vegan.equalsIgnoreCase("No")))
+		while (!(vegan.equalsIgnoreCase("Yes")|| vegan.equalsIgnoreCase("No")))
 		{
 		System.out.println("Is anyone in your party a vegan? (Yes/No)");
 		vegan = inputDevice.nextLine();
 		}
-		while (!(glutenFree.equalsIgnoreCase("Yes")&& glutenFree.equalsIgnoreCase("No")))
+		while (!(glutenFree.equalsIgnoreCase("Yes")|| glutenFree.equalsIgnoreCase("No")))
 		{
 		System.out.println("Is anyone in your party gluten-free? (Yes/No)");
 		glutenFree = inputDevice.nextLine();
