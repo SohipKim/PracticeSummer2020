@@ -15,7 +15,7 @@ public class first {
 		System.out.println("Please enter your age :");
 		age = inputDevice.nextInt();
 		
-		System.out.println("Your name is " + name + "you are " + age + "years old.");
+		System.out.println("Your name is " + name + ". you are " + age + "years old.");
 		
 	}
 	
