@@ -32,7 +32,7 @@ public class assignment1_1 {
 			System.out.println("Main Street Pizza Company \nCorner Café \nThe Chef’s Kitchen ");
 			}
 			
-			if(vegan=="Yes")
+			else if(vegan=="Yes")
 			{
 
 				System.out.println("Corner Café \nThe Chef’s Kitchen");	
@@ -58,25 +58,25 @@ public class assignment1_1 {
 			
 		
 		/*
+		 
+		 System.out.println("Here are the restaurant choice(s): ");
+		 
 		if(vegetarian == "No" && vegan == "No" && glutenFree == "No" )
 		{
-			System.out.println("Here are the restaurant choice(s): ");
 			System.out.println("Joe’s Gourmet Burgers");
 		}
 		else if( (vegan == "Yes" || vegan == "No") && vegetarian == "Yes" && glutenFree == "Yes" )
-		{
-			System.out.println("Here are the restaurant choice(s):");
+		{	
 			System.out.println("Main Street Pizza Company \nCorner Café \nThe Chef’s Kitchen ");
 		}
 		
 		else if(vegetarian == "Yes" && vegan == "No" && glutenFree == "No" )
 		{
-			System.out.println("Here are the restaurant choice(s):");
+			
 			System.out.println("Mama Fine Italian");
 		}
 		else
 		{
-		System.out.println("Here are the restaurant choice(s): ");
 		System.out.println("Corner Café \nThe Chef’s Kitchen");
 		}
 		
